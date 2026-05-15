@@ -5,7 +5,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
     "scripts": {
     "dev": "npx parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /f4-hm-19/",
+    "build": "parcel build src/index.html --public-url /f4-hm-18/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "server": "npx json-server students.json"
